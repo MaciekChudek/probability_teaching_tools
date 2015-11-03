@@ -1,0 +1,13 @@
+Some pedagogical R functions, useful for helping to give students an intuition about how distributions arise as accumulations of different kinds of events.
+
+Langauge: R
+
+binomial_toy.r: Demonstrates how a binomial arises from the sum of binary outcomes. 
+
+Have students actually flip several coins and call out how many heads they got while you enter their answers into the "add_datum()" function. Watch the binomial arise and approach the asymptotic prediction before your eyes. The use "add_data()" to simulate several thousand coin tosses and visualise the resulting distribution.
+
+exponential_toy.r: As above, but for continuous events and an exponential distribution.
+
+clt_toy: demonstrate the central limit theorum right in front of your classes eye balls.
+
+Have students nominate *any* distribution and add a generator function to a list using "add_distro()". Examples provided in comments at bottom of file. Then when you've gathered sufficiently many completely random distributions in your sack that students will assume their average must be completely random, impress them by sampling the average of your totally wacky random variables and predicting exactly what the distribution of those averages will be using the central limit theorum. Then, with their mouths agog, teach them the theory.
